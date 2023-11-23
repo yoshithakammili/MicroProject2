@@ -1,20 +1,24 @@
 .body {
   margin: 0;
-  overflow:initial
+  overflow: initial
 }
 
 .content {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
-.p_top{
+.p_top {
   margin: 20px;
   color: #6F7373;
   font-family: DM Sans;
   font-size: 29px;
   font-style: normal;
   font-weight: 400;
-  line-height: 178.7%; /* 51.823px */
+  line-height: 178.7%;
+  /* 51.823px */
 }
 
 .topnav {
@@ -47,7 +51,7 @@
 }
 
 .Inputsearch {
-  margin-top: 10px;
+  margin-top: 15px;
   max-height: 20px;
   border-radius: 63px;
   border: none;
@@ -58,8 +62,9 @@
 }
 
 .menuimage {
-  margin-top: 10px;
+  margin-top: 15px;
   max-height: 20px;
+  margin-right: 20px;
   max-width: 20px;
   position: relative;
 
@@ -124,6 +129,8 @@
 }
 
 .flex-child-1 {
+  margin-right: 10px;
+  margin-top: 10px;
   border: none;
   border-radius: 20px;
 }
@@ -144,17 +151,15 @@
 }
 
 
-
 .flex-child:first-child {
-  margin-right: 20px;
-  margin-top: 50px;
+  margin-top: 150px;
 
 }
 
 .cards {
   margin-top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card-blue {
@@ -206,8 +211,8 @@
 .sticky {
   margin-top: 60px;
   position: sticky;
-  float:right;
-  top: 60px;
+  float: right;
+  top: 80px;
   right: 0;
   display: inline-flex;
   flex-direction: column;
@@ -223,27 +228,16 @@
   margin-right: 30px;
 }
 
-.sticky_image_right{
-  width: 70px;
+.sticky_image_right {
+  width: 50px;
   margin-top: 2px;
+  margin-right: 5px;
 }
 
-/* img.whatsapp{
-  position: -webkit-sticky;
-  position:sticky;
-  position:fixed;
-}
-img.facebook{
-  position: -webkit-sticky;
-  position:sticky;
-  position:fixed;
-} */
 .footer-container {
   background-color: #483EFF;
   border-radius: 21px;
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 60px;
   margin-bottom: 60px;
   justify-content: space-around;
@@ -315,9 +309,18 @@ img.facebook{
   letter-spacing: 3.99px;
 }
 
-.button {
+.nxt_button {
   float: right;
   background-color: #000;
-  color: #FFF;
+  width: 107px;
+  height: 50px;
+  flex-shrink: 0;
+  margin: 20px;
+  border-radius: 9px;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
 
 }
